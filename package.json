@@ -1,0 +1,25 @@
+{
+  "name": "queveohoy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matva92/PROYECTO-9---QUE-VEO-HOY.git"
+  },
+  "author": "Matias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matva92/PROYECTO-9---QUE-VEO-HOY/issues"
+  },
+  "homepage": "https://github.com/matva92/PROYECTO-9---QUE-VEO-HOY#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mysql": "^2.17.1"
+    }
+}
