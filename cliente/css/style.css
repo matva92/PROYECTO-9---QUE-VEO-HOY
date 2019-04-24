@@ -594,8 +594,9 @@ img {
 	color: #FFF;
 }
 
-.grid-pager .boton-pagina:first-child,
-.grid-pager .boton-pagina.active {
+
+.grid-pager .boton-pagina:active,
+.grid-pager .selected {
 	color: #FFF;
 	background-color: #313A4F;
 }
