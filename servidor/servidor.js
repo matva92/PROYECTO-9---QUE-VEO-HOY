@@ -14,8 +14,10 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 
+app.get('/peliculas/recomendacion',controlador.recomendarPelicula)
 app.get('/generos',controlador.obtenerGeneros)
 app.get('/peliculas',controlador.mostrarPeliculas)
+app.get('/peliculas/:id',controlador.mostrarInformacionPelicula)
 
 
 
