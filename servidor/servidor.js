@@ -21,7 +21,6 @@ app.get('/peliculas/:id',controlador.mostrarInformacionPelicula)
 
 
 
-
 //seteamos el puerto en el cual va a escuchar los pedidos la aplicación
 var puerto = '8080';
 
