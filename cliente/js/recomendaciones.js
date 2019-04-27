@@ -124,7 +124,6 @@ function ControladorRecomendaciones() {
         $.getJSON(servidor + ruta + query,
             function(data) {
 
-                console.log(data)
 
                 //la respuesta del backend va a ser un array del peliculas. Antes de guardar ese array mezclamos su contenido
                 //para que no siempre se muestren las peliculas en el mismo
